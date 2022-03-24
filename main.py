@@ -13,7 +13,7 @@
 #############################################
 
 def main():
-    print('Text File Word Statistics')
+    print('Word Statistics')
     print('=========================\n')
     print("Enter (1) if file will be read from directory, must be .txt file")
     print("Enter (2) if string will be entered.")
