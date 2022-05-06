@@ -7,7 +7,7 @@ CheckPoint: 3/24/2022
 
 Language: Python3
 
-## Topic: Word Statistics
+## Word Statistics
 
 #### Version 0.1
 
