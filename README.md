@@ -9,6 +9,8 @@ Language: Python3
 
 ## Topic: Word Statistics
 
+#### Version 0.1
+
 ### Requirements:
 1. In this project you are writing a program to perform various word
 statistics of a given document (as a string). The initial requirement is to count the
