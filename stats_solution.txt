@@ -1,0 +1,15 @@
+
+Number of unique words :  12
+============================
+a : 1
+alice : 1
+another : 1
+bob : 1
+first : 1
+for : 2
+hello : 1
+hello-world : 1
+is : 2
+program : 2
+the : 1
+world : 1
