@@ -7,21 +7,58 @@ CheckPoint: 3/24/2022
 
 Language: Python3
 
-## Word Statistics
+Final: 5/8/2022
 
-#### Version 0.1
+#### Version 0.2
 
-### Requirements:
-1. In this project you are writing a program to perform various word
-statistics of a given document (as a string). The initial requirement is to count the
-frequency of each unique word. The code should support combinations of space, tab, and
-newline characters as separators. 
+### TEST CASE 1
 
-2. The second requirement change is to allow replacement of all
-occurrences of a given word to a given replacement word. Note that the replacement
-happens only when the given pattern word matches with a whole word. For example, for
-text “ab cd ef”, replace “a” with
+TEST CASE DESCRIPTION
+1. Input a string or text document into program.
+2. The program returns the count frequencey of each unique word.
+3. It should be able to read across spaces, tabs, and newline characters as separators.
 
+TEST DATA
+Input: 
+String:	Hello World
+
+EXPECTED RESULTS
+Output: 
+		hello: 1
+		world: 1
+
+### TEST CASE 2
+1. Input a string or text document into program.
+2. Enter a old word from the strin or text document to be replaced.
+3. Replace the old word with a new input word within the string or text document.
+4. Print string or text document with new word.
+
+TEST DATA
+Input: 
+String: 	Hello World
+Old Word:	Hello
+New Word:	Hi
+
+EXPECTED RESULTS
+Output:
+		Hi World
+
+### TEST CASE 3
+1. New feature called grepline.
+2. Input a text document into program.
+3. Input a keyword into program.
+4. Program will search the document by line and returns the line in which the word was found.
+
+TEST DATA
+Input:
+Document:	Hello World.txt
+		Hello World
+		Hi Moon
+Keyword:	World
+
+EXPECTED RESULTS
+Output:
+	Line 0 : Hello World
 ## How to run program
 ### On Shell
 1. Change directory to where 'main.py' is located. (Make sure Python3 is installed)
