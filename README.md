@@ -67,7 +67,7 @@ Output:
 	Line 0 : Hello World
 ## How to run program
 ### On Shell
-1. Change directory to where 'main.py' is located. (Make sure Python3 is installed)
+1. Change directory to where 'string_and_words.py' is located. (Make sure Python3 is installed)
 2. Enter 'python3 string_and_words.py' on shell to run python file.
 3. The program will initialize and there are two options:
    - Option (1) Select file to read from directory, one file already provided to test requirement 'data.txt'/
@@ -77,4 +77,5 @@ Output:
 5. The program will give two options to start either requirements:
    - Option (1) will provide unique word statistics from the TEXT.
    - Option (2) will replace an old word from the text to a new word from user input.
+   - Option (3) will initiliaze grepline feature, will return lines where keywords occur.
 6. Program will ask if user wants to restart program.
