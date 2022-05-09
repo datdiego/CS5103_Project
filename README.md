@@ -19,10 +19,12 @@ TEST CASE DESCRIPTION
 3. It should be able to read across spaces, tabs, and newline characters as separators.
 
 TEST DATA
+
 Input: 
 String:	Hello World
 
 EXPECTED RESULTS
+
 Output: 
 		hello: 1
 		world: 1
@@ -34,12 +36,14 @@ Output:
 4. Print string or text document with new word.
 
 TEST DATA
+
 Input: 
 String: 	Hello World
 Old Word:	Hello
 New Word:	Hi
 
 EXPECTED RESULTS
+
 Output:
 		Hi World
 
@@ -50,6 +54,7 @@ Output:
 4. Program will search the document by line and returns the line in which the word was found.
 
 TEST DATA
+
 Input:
 Document:	Hello World.txt
 		Hello World
@@ -57,6 +62,7 @@ Document:	Hello World.txt
 Keyword:	World
 
 EXPECTED RESULTS
+
 Output:
 	Line 0 : Hello World
 ## How to run program
