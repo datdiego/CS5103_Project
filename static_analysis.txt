@@ -1,6 +1,0 @@
-(base) C:\Users\flex5\se_projects>pylint main.py
-************* Module main
-main.py:39:20: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
-
-------------------------------------------------------------------
-Your code has been rated at 9.89/10 (previous run: 9.43/10, +0.46)
