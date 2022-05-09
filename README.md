@@ -68,7 +68,7 @@ Output:
 ## How to run program
 ### On Shell
 1. Change directory to where 'main.py' is located. (Make sure Python3 is installed)
-2. Enter 'python3 main.py' on shell to run python file.
+2. Enter 'python3 string_and_words.py' on shell to run python file.
 3. The program will initialize and there are two options:
    - Option (1) Select file to read from directory, one file already provided to test requirement 'data.txt'/
    - Can only read '.txt' files.
